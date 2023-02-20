@@ -1,7 +1,7 @@
 import React,{useState} from 'react';
 import './App.css';
 import data from "./data";
-import SingleQuestion from './SingleQuestion';
+import SingleQuestion from './Comp/SingleQuestion';
 
 function App() {
   const [question,setQuestion]= useState(data)
