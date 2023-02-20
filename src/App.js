@@ -8,7 +8,7 @@ function App() {
   return (
     <main>
     <div className="container">
-     <h3>freq asked question </h3>
+     <h3>frequently asked question </h3>
      <section className="info">
       {question.map((ques)=>{
         return (
